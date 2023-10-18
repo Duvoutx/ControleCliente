@@ -59,7 +59,7 @@
 >E está feito, e para disponibilizar  o server basta digitar:
 >
 >```
->php artisan serve`
+>php artisan serve
 >```
 >---
 >># Versão :pencil:
