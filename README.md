@@ -63,7 +63,7 @@
 >```
 >---
 >># Versão :pencil:
->#####1.0.0
+>1.0.0
 >># Autoria  :black_nib:
 >___Eduardo Ribeiro___  [LinkedIn](www.linkedin.com/in/eduardo-ribeiro-santana-9271a4214)
 >
