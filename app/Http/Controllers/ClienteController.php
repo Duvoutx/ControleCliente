@@ -7,11 +7,15 @@ use Illuminate\Http\Request;
 
 class ClienteController extends Controller
 {
+    /**
+     * Summary of index
+     * @return \Illuminate\Http\JsonResponse|mixed
+     */
     public function index()
     {
         $clientes = Cliente::all();
-
-        return view('listaClientes', ['clientes' => $clientes]);
+    return response()->json($clientes);
+        
     }
 
     public function create()
