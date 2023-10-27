@@ -130,6 +130,7 @@
         </tbody>
     </table>
     <a class="add-button" href="listaClientes/criaCliente">Adicionar Novo Cliente</a>
+    <a class="add-button" href="indexLoja.blade.php">HORA CERTA</a>
 </body>
 
 </html>

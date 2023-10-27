@@ -61,14 +61,18 @@
     <form action="{{route('clientes-store')}}" method="POST">
         @csrf
         <div class="form-group">
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" placeholder="Digite seu nome">
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Digite seu Email">
         </div>
         <div class="form-group">
-            <label for="nome">Telefone:</label>
-            <input type="text" name="telefone" placeholder="Digite seu telefone">
+            <label for="senha">Senha:</label>
+            <input type="text" name="senha" placeholder="Digite sua Senha">
         </div>
         <br>
+        <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="text" name="telefone" placeholder="Digite seu Telefone">
+        </div>
         <div class="form-group">
             <input type="submit" name="submit">
         </div>

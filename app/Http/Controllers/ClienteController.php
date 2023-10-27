@@ -23,7 +23,7 @@ class ClienteController extends Controller
     public function store(Request $request)
     {
         Cliente::create($request->all());
-        return redirect()->route('clientes-index');
+        return redirect()->route('indexLoja');
     }
 
     public function edit($id)
@@ -36,7 +36,8 @@ class ClienteController extends Controller
     {
         $data = [
             'nome' => $request->nome,
-            'telefone' => $request->telefone
+            'telefone' => $request->telefone,
+            'email' => $request->email
         ];
         Cliente::where('id', $id)->update($data);
         return redirect()->route('clientes-index');
